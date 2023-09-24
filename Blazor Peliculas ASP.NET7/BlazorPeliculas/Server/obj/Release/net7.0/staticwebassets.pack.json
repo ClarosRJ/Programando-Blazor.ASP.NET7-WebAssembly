@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\windo\\source\\repos\\Blazor Peliculas\\BlazorPeliculas\\Server\\wwwroot\\peliculas\\17eadfa1-eeb8-4836-9f90-d74d49fad7e3.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\17eadfa1-eeb8-4836-9f90-d74d49fad7e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\windo\\source\\repos\\Blazor Peliculas\\BlazorPeliculas\\Server\\wwwroot\\peliculas\\6d00dc5c-ddce-4e53-b449-04b59ba8b9a0.jpg",
+      "PackagePath": "staticwebassets\\peliculas\\6d00dc5c-ddce-4e53-b449-04b59ba8b9a0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\windo\\source\\repos\\Blazor Peliculas\\BlazorPeliculas\\Server\\wwwroot\\personas\\1fe0e4f6-b20b-4b0a-a318-6775e98a39e8.jpg",
+      "PackagePath": "staticwebassets\\personas\\1fe0e4f6-b20b-4b0a-a318-6775e98a39e8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\windo\\source\\repos\\Blazor Peliculas\\BlazorPeliculas\\Server\\wwwroot\\personas\\960f372a-b105-4559-91c3-f94983023ca8.jpg",
+      "PackagePath": "staticwebassets\\personas\\960f372a-b105-4559-91c3-f94983023ca8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\windo\\source\\repos\\Blazor Peliculas\\BlazorPeliculas\\Server\\wwwroot\\personas\\c6ca57ca-fe67-4042-b358-10690472eb9c.jpg",
+      "PackagePath": "staticwebassets\\personas\\c6ca57ca-fe67-4042-b358-10690472eb9c.jpg"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.BlazorPeliculas.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.BlazorPeliculas.Server.props",
+      "PackagePath": "build\\BlazorPeliculas.Server.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorPeliculas.Server.props",
+      "PackagePath": "buildMultiTargeting\\BlazorPeliculas.Server.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlazorPeliculas.Server.props",
+      "PackagePath": "buildTransitive\\BlazorPeliculas.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

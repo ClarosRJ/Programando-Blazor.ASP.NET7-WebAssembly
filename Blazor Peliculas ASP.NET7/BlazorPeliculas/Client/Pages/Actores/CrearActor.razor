@@ -1,0 +1,26 @@
+﻿@page "/actores/crear"
+@inject NavigationManager navigationManager
+@inject IRepositorio repositorio
+@inject SweetAlertService swal
+@attribute [Authorize(Roles = "admin")]
+<h3>Crear Actor</h3>
+
+<FormularioActores OnvalidSubmit="Crear" Actor="Actor"></FormularioActores>
+@code {
+	private Actor Actor = new Actor();
+
+	private async Task Crear()
+	{
+		var httpResponse = await repositorio.Post("api/actores", Actor);
+		if (httpResponse.Error)
+		{
+			var mensajeError = await httpResponse.ObtenerMensajeError();
+			await swal.FireAsync("Error", mensajeError, SweetAlertIcon.Error);
+		}
+		else
+		{
+			navigationManager.NavigateTo("actores");
+		}
+	}
+	
+}

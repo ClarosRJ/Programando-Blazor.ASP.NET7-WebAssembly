@@ -1,0 +1,34 @@
+﻿@page "/"
+@page "/index"
+@inject IRepositorio repositorio
+
+<PageTitle>Blazor Películas</PageTitle>
+
+<div>
+	<h3>En Cartelera (No Actualizado Azure App Service)</h3>
+	<ListadoPeliculas Peliculas="EnCartelera" />
+</div>
+<div>
+	<h3>Proximos Estrenos(No Actualizado Azure DevOps</h3>
+	<ListadoPeliculas Peliculas="FuturosEstrenos" />
+</div>
+
+@code {
+
+	public List<Pelicula>? FuturosEstrenos { get; set; }
+	public List<Pelicula>? EnCartelera { get; set; }
+
+	protected async override Task OnInitializedAsync()
+	{
+		var respuestaHTTP = await repositorio.Get<HomePageDTO>("api/peliculas");
+		if (respuestaHTTP.HttpResponseMessage.IsSuccessStatusCode)
+		{
+			FuturosEstrenos = respuestaHTTP.Response!.ProximosEstrenos;
+			EnCartelera = respuestaHTTP.Response!.PeliculasEnCartelera;
+		}
+		else
+		{
+			Console.WriteLine(respuestaHTTP.HttpResponseMessage.StatusCode);
+		}
+	}
+}

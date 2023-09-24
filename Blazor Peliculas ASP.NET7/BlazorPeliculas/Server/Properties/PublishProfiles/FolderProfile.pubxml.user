@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\windo\source\repos\Blazor Peliculas\BlazorPeliculas\Server\bin\Release\net7.0\publish\</_PublishTargetUrl>
+    <History>True|2023-06-13T18:51:47.1153751Z;True|2023-06-13T14:37:39.5373765-04:00;True|2023-06-13T14:33:32.9226356-04:00;True|2023-06-13T14:26:45.7541815-04:00;True|2023-06-13T14:08:17.7383890-04:00;True|2023-06-13T13:57:43.5733195-04:00;True|2023-06-13T13:47:12.8966593-04:00;</History>
+    <LastFailureDetails />
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+</Project>
